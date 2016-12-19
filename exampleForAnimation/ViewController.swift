@@ -13,10 +13,10 @@ class ViewController: UIViewController {
     var titleArr: [[[String: String]]] = [[
         ["clsName":"YWBasicAnimController","title":"CABasicAnimation基础动画"],
         ["clsName":"YWKeyframeAnimController","title":"CAKeyframeAnimation基础动画"],
-        ["clsName":"TCSchoolViewController","title":"学堂"],
-        ["clsName":"TCProfileViewController","title":"我的"]],
-        [["clsName":"TCProfileViewController","title":"我的"],
-        ["clsName":"YWWaterWaveController","title":"水波纹效果"]]
+        ["clsName":"YWDrawLineController","title":"画线动画、线条递增、递减动画"]],
+        [["clsName":"YWDrawLineController","title":"画线动画"],
+        ["clsName":"YWWaterWaveController","title":"水波纹效果"],
+        ["clsName":"YWFireAnimController","title":"粒子动画-火苗效果"]]
     ]
     
     var sectionTitleArr = ["动画基础示例","动画常见经典案例"]

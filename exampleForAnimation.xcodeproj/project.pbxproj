@@ -16,7 +16,9 @@
 		7BD78AF31E06CE610047E6F1 /* YWWaterWaveController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD78AEA1E06CE610047E6F1 /* YWWaterWaveController.swift */; };
 		7BD78AF41E06CE610047E6F1 /* YWBasicAnimController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD78AEB1E06CE610047E6F1 /* YWBasicAnimController.swift */; };
 		7BD78AF51E06CE610047E6F1 /* YWKeyframeAnimController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD78AEC1E06CE610047E6F1 /* YWKeyframeAnimController.swift */; };
-		7BD78AF71E06D0000047E6F1 /* YWSingleWaterWaveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD78AF61E06D0000047E6F1 /* YWSingleWaterWaveView.swift */; };
+		7BD78AF71E06D0000047E6F1 /* YWWaterWaveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD78AF61E06D0000047E6F1 /* YWWaterWaveView.swift */; };
+		7BD78AFA1E076F520047E6F1 /* YWDrawLineController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD78AF91E076F520047E6F1 /* YWDrawLineController.swift */; };
+		7BD78AFD1E0792D60047E6F1 /* YWFireAnimController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD78AFC1E0792D60047E6F1 /* YWFireAnimController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,7 +32,9 @@
 		7BD78AEA1E06CE610047E6F1 /* YWWaterWaveController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YWWaterWaveController.swift; sourceTree = "<group>"; };
 		7BD78AEB1E06CE610047E6F1 /* YWBasicAnimController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YWBasicAnimController.swift; sourceTree = "<group>"; };
 		7BD78AEC1E06CE610047E6F1 /* YWKeyframeAnimController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YWKeyframeAnimController.swift; sourceTree = "<group>"; };
-		7BD78AF61E06D0000047E6F1 /* YWSingleWaterWaveView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YWSingleWaterWaveView.swift; sourceTree = "<group>"; };
+		7BD78AF61E06D0000047E6F1 /* YWWaterWaveView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YWWaterWaveView.swift; sourceTree = "<group>"; };
+		7BD78AF91E076F520047E6F1 /* YWDrawLineController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YWDrawLineController.swift; sourceTree = "<group>"; };
+		7BD78AFC1E0792D60047E6F1 /* YWFireAnimController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YWFireAnimController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +71,8 @@
 				7BD78AE81E06CE610047E6F1 /* ViewController.swift */,
 				7BD78AEB1E06CE610047E6F1 /* YWBasicAnimController.swift */,
 				7BD78AEC1E06CE610047E6F1 /* YWKeyframeAnimController.swift */,
+				7BD78AFB1E0790EC0047E6F1 /* FireAnim */,
+				7BD78AF81E076F130047E6F1 /* drawLineAnim */,
 				7BD78AE91E06CE610047E6F1 /* WaterWare */,
 				7BD78AE21E06CE610047E6F1 /* Assets.xcassets */,
 				7BD78AE31E06CE610047E6F1 /* LaunchScreen.storyboard */,
@@ -80,9 +86,25 @@
 			isa = PBXGroup;
 			children = (
 				7BD78AEA1E06CE610047E6F1 /* YWWaterWaveController.swift */,
-				7BD78AF61E06D0000047E6F1 /* YWSingleWaterWaveView.swift */,
+				7BD78AF61E06D0000047E6F1 /* YWWaterWaveView.swift */,
 			);
 			path = WaterWare;
+			sourceTree = "<group>";
+		};
+		7BD78AF81E076F130047E6F1 /* drawLineAnim */ = {
+			isa = PBXGroup;
+			children = (
+				7BD78AF91E076F520047E6F1 /* YWDrawLineController.swift */,
+			);
+			path = drawLineAnim;
+			sourceTree = "<group>";
+		};
+		7BD78AFB1E0790EC0047E6F1 /* FireAnim */ = {
+			isa = PBXGroup;
+			children = (
+				7BD78AFC1E0792D60047E6F1 /* YWFireAnimController.swift */,
+			);
+			path = FireAnim;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,10 +182,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				7BD78AF51E06CE610047E6F1 /* YWKeyframeAnimController.swift in Sources */,
-				7BD78AF71E06D0000047E6F1 /* YWSingleWaterWaveView.swift in Sources */,
+				7BD78AF71E06D0000047E6F1 /* YWWaterWaveView.swift in Sources */,
 				7BD78AF21E06CE610047E6F1 /* ViewController.swift in Sources */,
 				7BD78AF41E06CE610047E6F1 /* YWBasicAnimController.swift in Sources */,
+				7BD78AFD1E0792D60047E6F1 /* YWFireAnimController.swift in Sources */,
 				7BD78AF31E06CE610047E6F1 /* YWWaterWaveController.swift in Sources */,
+				7BD78AFA1E076F520047E6F1 /* YWDrawLineController.swift in Sources */,
 				7BD78AED1E06CE610047E6F1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -328,6 +352,7 @@
 				7BD78AD51E0628820047E6F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -21,11 +21,9 @@ class YWWaterWaveController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = UIColor.white
-        let link = CADisplayLink(target: self, selector: #selector(drawSinLine))
-        link.add(to: RunLoop.current, forMode: .commonModes)
+        let singleWaterWaveView = YWWaterWaveView(frame:view.bounds)
+        view.addSubview(singleWaterWaveView)
     }
     
-    @objc private func drawSinLine() {
-        
-    }
+ 
 }
