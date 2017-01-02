@@ -26,7 +26,7 @@ class YWKeyframeAnimController: UIViewController {
         orbitAnim.calculationMode = kCAAnimationPaced
         orbitAnim.fillMode = kCAFillModeForwards
         orbitAnim.repeatCount = Float.infinity
-        orbitAnim.rotationMode = kCAAnimationRotateAuto
+        orbitAnim.rotationMode = kCAAnimationRotateAutoReverse
         animView.layer.add(orbitAnim, forKey: "orbitAnim")
         
         let shapeLayer = CAShapeLayer()

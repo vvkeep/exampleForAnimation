@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B2543CA1E1A3282006F9540 /* YWTransitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2543C91E1A3282006F9540 /* YWTransitionViewController.swift */; };
+		7B2543CC1E1A6BF7006F9540 /* YWSpringAnimViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2543CB1E1A6BF7006F9540 /* YWSpringAnimViewController.swift */; };
 		7BD78AED1E06CE610047E6F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD78AE11E06CE610047E6F1 /* AppDelegate.swift */; };
 		7BD78AEE1E06CE610047E6F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BD78AE21E06CE610047E6F1 /* Assets.xcassets */; };
 		7BD78AEF1E06CE610047E6F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BD78AE31E06CE610047E6F1 /* LaunchScreen.storyboard */; };
@@ -22,6 +24,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7B2543C91E1A3282006F9540 /* YWTransitionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YWTransitionViewController.swift; sourceTree = "<group>"; };
+		7B2543CB1E1A6BF7006F9540 /* YWSpringAnimViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YWSpringAnimViewController.swift; sourceTree = "<group>"; };
 		7BD78AC11E0628820047E6F1 /* exampleForAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = exampleForAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BD78AE11E06CE610047E6F1 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7BD78AE21E06CE610047E6F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -71,6 +75,8 @@
 				7BD78AE81E06CE610047E6F1 /* ViewController.swift */,
 				7BD78AEB1E06CE610047E6F1 /* YWBasicAnimController.swift */,
 				7BD78AEC1E06CE610047E6F1 /* YWKeyframeAnimController.swift */,
+				7B2543C91E1A3282006F9540 /* YWTransitionViewController.swift */,
+				7B2543CB1E1A6BF7006F9540 /* YWSpringAnimViewController.swift */,
 				7BD78AFB1E0790EC0047E6F1 /* FireAnim */,
 				7BD78AF81E076F130047E6F1 /* drawLineAnim */,
 				7BD78AE91E06CE610047E6F1 /* WaterWare */,
@@ -181,6 +187,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B2543CC1E1A6BF7006F9540 /* YWSpringAnimViewController.swift in Sources */,
 				7BD78AF51E06CE610047E6F1 /* YWKeyframeAnimController.swift in Sources */,
 				7BD78AF71E06D0000047E6F1 /* YWWaterWaveView.swift in Sources */,
 				7BD78AF21E06CE610047E6F1 /* ViewController.swift in Sources */,
@@ -189,6 +196,7 @@
 				7BD78AF31E06CE610047E6F1 /* YWWaterWaveController.swift in Sources */,
 				7BD78AFA1E076F520047E6F1 /* YWDrawLineController.swift in Sources */,
 				7BD78AED1E06CE610047E6F1 /* AppDelegate.swift in Sources */,
+				7B2543CA1E1A3282006F9540 /* YWTransitionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

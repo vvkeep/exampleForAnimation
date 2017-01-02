@@ -13,7 +13,9 @@ class ViewController: UIViewController {
     var titleArr: [[[String: String]]] = [[
         ["clsName":"YWBasicAnimController","title":"CABasicAnimation基础动画"],
         ["clsName":"YWKeyframeAnimController","title":"CAKeyframeAnimation基础动画"],
-        ["clsName":"YWDrawLineController","title":"画线动画、线条递增、递减动画"]],
+        ["clsName":"YWDrawLineController","title":"画线动画、线条递增、递减动画"],
+        ["clsName":"YWTransitionViewController","title":"CATransition转场动画"],
+        ["clsName":"YWSpringAnimViewController","title":"CASpringAnimation弹簧动画"]],
         [["clsName":"YWDrawLineController","title":"画线动画"],
         ["clsName":"YWWaterWaveController","title":"水波纹效果"],
         ["clsName":"YWFireAnimController","title":"粒子动画-火苗效果"]]

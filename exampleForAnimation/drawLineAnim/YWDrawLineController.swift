@@ -31,7 +31,7 @@ class YWDrawLineController: UIViewController {
         pathAnim.fromValue = 0
         pathAnim.toValue = 1
         pathAnim.autoreverses = true
-//        pathAnim.fillMode = kCAFillModeForwards
+        pathAnim.fillMode = kCAFillModeForwards
 //        pathAnim.isRemovedOnCompletion = false
         pathAnim.repeatCount = Float.infinity
         shapeLayer.add(pathAnim, forKey: "strokeEndAnim")
